@@ -14,10 +14,10 @@ setuptools.setup(
     ],
     entry_points={
         'jupyter_serverproxy_servers': [
-            'illumidesk-rsession-proxy = illumidesk-rsession-proxy:setup_illumidesk-rsession-proxy',
+            'rstudio = illumidesk_rsession_proxy:setup_rserver',
         ]
     },
     package_data={
-        'illumidesk-rsession-proxy': ['icons/*'],
+        'illumidesk_rsession_proxy': ['icons/rstudio.svg'],
     },
 )

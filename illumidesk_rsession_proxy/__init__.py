@@ -3,11 +3,11 @@ Source mostly obtained from https://github.com/jupyterhub/jupyter-rsession-proxy
 
 License: BSD-3-Clause - Jupyter Team
 """
-
 import os
 import subprocess
 import getpass
 import shutil
+
 
 def get_rstudio_executable(prog):
     # Find prog in known locations
@@ -86,6 +86,7 @@ def setup_rsession():
     return {
         'command': _get_cmd,
         'environment': _get_env,
+        'new_browser_tab': True,
         'launcher_entry': {
             'title': 'RStudio',
             'icon_path': get_icon_path()
