@@ -7,7 +7,7 @@ This package was built using the [`jupyter-server-proxy` cookiecutter template](
 ## Installation
 
 ```bash
-pip install illumidesk-rsession-proxy
+pip install https://github.com/IllumiDesk/illumidesk-rsession-proxy/archive/v0.1.0.zip
 ```
 
 ## Requirements
@@ -29,18 +29,23 @@ This extension relies on the Jupyter Notebook to run. [Refer to Jupyter's offici
 
 Install the package with pip:
 
-```
-pip install illumidesk-rsession-proxy
+```bash
+pip install https://github.com/IllumiDesk/illumidesk-rsession-proxy/releases/tag/v0.1.0
 ```
 
 ## Why?
 
-So we can open RStudio in a new browser tab from the Jupyter Lab launcher. Refer to [`jupyter-server-proxy`'s](https://jupyter-server-proxy.readthedocs.io/en/latest/server-process.html#specifying-config-from-python-packages) documentation for additional configuration settings.
+So we can open RStudio in a new browser tab from the Jupyter Lab launcher using a JupyterHub setup. Refer to [`jupyter-server-proxy`'s](https://jupyter-server-proxy.readthedocs.io/en/latest/server-process.html#specifying-config-from-python-packages) documentation for additional configuration settings.
 
 ## Attributions
 
 - [`jupyter-rsession-proxy`](https://github.com/jupyterhub/jupyter-rsession-proxy)
+- [`jupyter-shiny-proxy`](https://github.com/ryanlovett/jupyter-shiny-proxy)
 - [`jupyter-server-proxy`](https://github.com/jupyterhub/jupyter-server-proxy)
+
+## Trademark
+
+`RStudio` and `Shiny` are trademarks of RStudio, PBC. [Refer to RStudio's trademark guidelines for more information](https://rstudio.com/about/trademark/).
 
 ## License
 
